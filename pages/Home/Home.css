@@ -1,0 +1,74 @@
+
+ .home {
+    padding: 0 8rem;
+   min-height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    }
+    @media (max-width: 700px) {
+    .home {
+    padding: 0 2rem;
+    }
+    }
+    .home > h1 {
+    font-size: 5.5rem;
+    background: linear-gradient(to right, #9845e8 0%, #33d2ff 50%, #dd5789 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    }
+    .home > a {
+    font-size: 1.5rem;
+    }
+    h2 {
+        text-align: center;
+       color:crimson;
+        }
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+              }
+              
+              .centered {
+                text-align: center;
+              }
+              
+              .big-text {
+                font-size: 24px; /* Ajusta el tamaño a tu preferencia */
+              }
+
+        .home {
+            
+            background-size: cover;
+            background-position: center;
+             /*Fijar el fondo para que no se desplace con el contenido */
+            /*Proporcionar la URL de la imagen de fondo */
+            background-image: url("https://res.cloudinary.com/dcraw5jw9/image/upload/v1690273242/Inicio_jcso6t.png");
+            height: 60%;
+        };
+        .id {
+            color:white;
+          
+        }
+        .destacados {
+          height: 1px; ;
+           margin:20px;
+           text-align: center;
+         }
+         
+         .encabezado-destacados {
+           margin-bottom: 1rem;
+           margin-top: 30px;
+         }
+         
+         .contenedor-destacados img {
+           padding: 1.25%;
+           margin-top: 30px;
+         }
+         .first-set > img{width: 100px;}
+         .first-set {display:flex;
+         flex-direction:row}

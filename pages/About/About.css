@@ -1,0 +1,31 @@
+.about {
+    padding: 0 8rem;
+    height: 30;
+    width: 20;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 3rem;
+    background-size: cover;
+    background-position: center;
+    /* Fijar el fondo para que no se desplace con el contenido */
+    background-attachment: fixed;
+    /* Proporcionar la URL de la imagen de fondo */
+    background-image: url("");
+};
+    @media (max-width: 700px) {
+    .about {
+    padding: 0 2rem;
+    }
+    }
+    .about > h1 {
+    font-size: 5.5rem;
+    background: linear-gradient(to right, #9845e8 0%, #33d2ff 50%, #dd5789 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    }
+    .about > a {
+    font-size: 1.5rem;
+    }
