@@ -6,7 +6,7 @@ cleanPage(main);
 main.innerHTML = `
 <section class="about">
       <h1>About</h1>
-      <img src ="public/people1.jpg", alt="about" />
+      <img src ="/people1.jpg", alt="about" />
       <p>
       Soy estudiante de Desarrollo web, informático , escritor novel y miembro del club de novela negra (MANCHANEGRA)de Ciudad Real.
       Desarrollo mi creatividad en diversos géneros , entre los cuales caben destacar la narración breve.
@@ -17,7 +17,7 @@ main.innerHTML = `
       <div class="flip-card">
       <div class="flip-card-inner">
         <div class="flip-card-front">
-          <img src="public/people2.jpg" alt="Avatar" style="width:300px;height:300px;">
+          <img src="/people2.jpg" alt="Avatar" style="width:300px;height:300px;">
         </div>
         <div class="flip-card-back">
     <!-- Formulario de contacto -->

@@ -16,12 +16,23 @@ export const Home = () => {
   destacadosSection.classList.add("destacados");
   destacadosSection.innerHTML = `
     <u><h2>DESTACADO</h2></u>
-    <div class="project">
-      <a href="./pages/Projects/Projects"> 
-        <img src="./public/proyecto2.jpg"></img>
-        <p>Descripción de la segunda imagen</p>
-      </a>
-    </div>
+    <center>
+    <section class="proyectos" id="proyectos">
+      <div class="contenedor-de-proyectos">
+        <div class="contenedor-de-proyecto tarjeta-de-proyecto">
+          <img
+            src="/polaroid.jpg"
+            alt="greeny-earth"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="titulo-de-proyecto">Ángel de la guarda</h3>
+          <br></br>
+    
+        </div>
+      </div>
+    </section>
+    </center>
   `;
   
   main.appendChild(destacadosSection);

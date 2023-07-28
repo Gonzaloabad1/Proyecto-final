@@ -12,7 +12,7 @@ main.innerHTML = `
 <section>
 
      <h2> Ángel de la guarda</h2>
-    <center> <img src ="public/polaroid.jpg", alt="about"/></center>
+    <center> <img src ="/polaroid.jpg", alt="about"/></center>
       <p>
       Era un fresco y grisáceo día de octubre. Aquella mañana en un pequeño chalet alejado de todo ruido, Luis le daba un último sorbo a su taza de café.
       Había preparado parte de su despacho para revelar las fotos que había realizado a lo largo de este año. Es un gran amante de la fotografía, cuando apenas tenía 6 años empezó a hacer fotografías con una vieja cámara polaroid.
@@ -23,7 +23,7 @@ main.innerHTML = `
       
       <section>
       <h2> Viaje en el Tiempo 3º Parte</h2>
-      <center><img src ="public/tiempo2.jpg", alt="about" /></center>
+      <center><img src ="/tiempo2.jpg", alt="about" /></center>
       <p>
       Recorte de Basket zeitung, 24 de agosto 2020
 Alberto Carrasco, reputado físico teórico nacido en Madrid, España, hace 30 años, ha recibido el mayor galardón científico […] Se le hace entrega del premio Nobel de Física por la contribución altruista y de incalculable valor que ha brindado a la humanidad. La solución propuesta como Teoría de paradoja ha revolucionado el mundo de la física tal y como lo conocíamos hasta ahora.
@@ -40,7 +40,7 @@ No, no puedo pensar en el fracaso. Esto va a ser un éxito. Los cálculos son ex
       </section>
       <section>
       <h2>Encuentro en la Universidad </h2>
-      <center> <img src ="public/fantasma-uni.jpg", alt="about" /></center>
+      <center> <img src ="/fantasma-uni.jpg", alt="about" /></center>
       <p>
       La universidad tiene más de doscientos años, por ella han pasado varios miembros de su familia y algunas celebridades de la ciudad.
 

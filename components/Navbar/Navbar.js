@@ -3,7 +3,7 @@ import "./Navbar.css";
 return`
 
 <nav>
-<img class="icono" src="./public/logo-removebg-preview.png">
+<img class="icono" src="/logo-removebg-preview.png">
 <h2></h2>
 <ul>
 <li>

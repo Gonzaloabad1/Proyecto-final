@@ -8,7 +8,7 @@ export const Book = () => {
     <section class="book">
       <h1>Book</h1>
       <section class="book" id="book">
-        <img src="public/libro.jpg" alt="Portada del libro" />
+        <img src="/libro.jpg" alt="Portada del libro" />
         <div class="bio animate__animated animate__shakeX">
         <p>Editorial:EDITORIAL CIRCULO ROJO</p>
 <p>Año de edición:
@@ -18,6 +18,8 @@ Ficción moderna y contemporánea</p>
 <p>ISBN: 978-84-1350-421-6</p>
 <p>Páginas: 200</p>
 <p>Encuadernación: Rústica</p>
+<br></br>
+<a class="fcc-btn" href="https://www.libreriaserendipia.com/libro/suenos-de-un-joven-escritor_145222">Comprar</a>
           <h2 class="bio-titulo">Sinopsis</h2>
           
           <p class="bio-texto">
